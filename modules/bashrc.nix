@@ -10,7 +10,7 @@ environment.shellAliases = {
   shutdown = "shutdown -h now";
   restart = "reboot";
 
-  shellie = "/home/nix/scripts/shellie.sh"
+  shellie = "/home/nix/scripts/shellie.sh";
 
 };
 
