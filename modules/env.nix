@@ -70,7 +70,8 @@
 
     ollama # local llm cli
     fabric-ai # fabric llm augment framework
-
+ 
+    nh # yet another nix helper
 
   ];
 
