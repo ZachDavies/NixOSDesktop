@@ -74,7 +74,8 @@
  
     nh # yet another nix helper
     nix-output-monitor # pretty nix command
-    nvd # nix diff 
+    nvd # nix diff
+    vulnix
 
   ];
 
