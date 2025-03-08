@@ -72,6 +72,8 @@
     fabric-ai # fabric llm augment framework
  
     nh # yet another nix helper
+    nix-output-monitor # pretty nix command
+    nvd # nix diff 
 
   ];
 
