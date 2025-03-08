@@ -5,7 +5,7 @@
    enable = true;
    dates = "weekly";
    allowReboot = false;
- }
+ };
  # Auto Cleanup
  nix.gc.automatic = true;
  nix.gc.dates = "daily";
