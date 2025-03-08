@@ -29,8 +29,9 @@
     mpv # music and video player but suckless
     qpwgraph # audio piping software
     fzf # cli fuzzy find util
-    winetricks
-    protontricks
+    winetricks # wine prefix tweaker
+    protontricks # proton prefix tweaker
+    bottles # wine prefix manager
     opentabletdriver
     flatpak
     kitty
