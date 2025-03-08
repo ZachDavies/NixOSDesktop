@@ -24,6 +24,8 @@
       warp-terminal # pretty terminal
       protonup-qt
 
+      figlet # funny ascii
+
       # file retrieval tools
       ddrescue
       multipath-tools
