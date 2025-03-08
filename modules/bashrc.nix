@@ -12,6 +12,7 @@ environment.shellAliases = {
 
   shellie = "/home/nix/scripts/shellie.sh";
   seb = "/home/nix/seb/seb.sh";
+  nup = "/etc/nixos/update";
 };
 
 
