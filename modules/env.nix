@@ -68,6 +68,8 @@
 
     docker
 
+    ollama # local llm cli 
+
 
   ];
 
