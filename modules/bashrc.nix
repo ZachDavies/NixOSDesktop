@@ -11,7 +11,7 @@ environment.shellAliases = {
   restart = "reboot";
 
   shellie = "/home/nix/scripts/shellie.sh";
-
+  seb = "/home/nix/seb/seb.sh";
 };
 
 
