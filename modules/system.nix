@@ -101,13 +101,6 @@
 
   virtualisation.docker.enable = true; # docker service
 
-  system.autoUpgrade = {
-  enable = true;
-  allowReboot = false;
-  dates = "daily";
-    };
-
-
 # Advanced System Monitoring
   services.prometheus = {
   enable = true;
@@ -123,13 +116,6 @@ services.grafana = {
   enable = true;
   settings.server.http_port = 3000;
 };
-
-
-
-
-
-
-
 
   system.stateVersion = "24.11"; # never change this, just trust me 
 

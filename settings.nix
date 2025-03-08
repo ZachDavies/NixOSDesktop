@@ -19,16 +19,5 @@
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   system.stateVersion = "24.11";
 
-# maintenance.nix module 
-  system.maintenance = {
-  enable = true;  # Enable the maintenance module
-  };
-  nix.gc = {
-    automatic = lib.mkForce true;
-    dates = "weekly";
-    options = "--delete-older-than 30d";
-  };
-
-
 }
 
