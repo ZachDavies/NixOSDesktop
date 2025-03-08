@@ -36,7 +36,8 @@ apps = {
    filebrowser = "nautilus",
    mullvad = "mullvad-vpn",
    zen = "/home/uber/zen/zen",
-   thunar = "thunar"
+   thunar = "thunar",
+   obsidian = "obsidian"
  }
 
 -- define wireless and ethernet interface names for the network widget
@@ -52,7 +53,6 @@ local run_on_start_up = {
    "redshift",
    "unclutter",
    "mullvad-vpn",
-   "zen",
    "otd-daemon"
 }
 

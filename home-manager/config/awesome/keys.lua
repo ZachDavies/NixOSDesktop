@@ -158,6 +158,12 @@ keys.globalkeys = gears.table.join(
       {description = "open file manager", group = "launcher"}
     ),
 
+   awful.key({modkey}, "o",
+     function()
+	     awful.spawn(apps.obsidian)
+     end,
+       {description = "open obsidian note app", group = "launcher"}
+     ),
    -- =========================================
    -- FUNCTION KEYS
    -- =========================================
