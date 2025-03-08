@@ -68,7 +68,8 @@
 
     docker
 
-    ollama # local llm cli 
+    ollama # local llm cli
+    fabric-ai # fabric llm augment framework
 
 
   ];
