@@ -12,7 +12,7 @@
   gtk = {
     enable = true;
     theme = {
-      name = "catppuccin-frappe-blue-standard";    # or another dark theme
+      name = "catppuccin-mocha-mauve-standard";    # or another dark theme
       package = pkgs.catppuccin-gtk;
     };
     iconTheme = {
