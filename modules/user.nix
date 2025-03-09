@@ -122,12 +122,6 @@
   services.udisks2.enable = true;
   programs.dconf.enable = true;
 
-  services.xserver.displayManager.lightdm.greeters.gtk = {
-  cursorTheme = {
-    package = pkgs.catppuccin-cursors.mochaSapphire;
-    name = "catppuccin-mocha-sapphire-cursors";
-    size = 48;
-  };
 };
 
 
