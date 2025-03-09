@@ -30,8 +30,8 @@
       '';
     };
     cursorTheme = {
-    package = pkgs.catppuccin-cursors.macchiatoDark;
-    name = "catppuccin-macchiato-dark-cursors";
+    package = pkgs.catppuccin-cursors.mochaLavender;
+    name = "catppuccin-mocha-lavender-cursors";
     size = 24;
   };
   };
@@ -39,9 +39,9 @@
   home.pointerCursor = {
     gtk.enable = true;
     x11.enable = true;
-    name = "catppuccin-macchiato-dark-cursors";
+    name = "catppuccin-mocha-lavender-cursors";
     size = 24;
-    package = pkgs.catppuccin-cursors.macchiatoDark;
+    package = pkgs.catppuccin-cursors.mochaLavender;
   };
 
 
